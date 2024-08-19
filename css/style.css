@@ -1,0 +1,28 @@
+:root {
+  --primary: #00111a;
+  --bg: #4bc9b1;
+}
+
+body {
+  background-color: #00111a;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar .navbar-logo {
+  color: var(--bg);
+  font-size: 25px;
+  font-weight: 800;
+  text-decoration: none;
+}
+.navbar .navbar-menu a {
+  color: var(--bg);
+  display: inline-block;
+  text-decoration: none;
+}
+h1 {
+  color: var(--bg);
+}
